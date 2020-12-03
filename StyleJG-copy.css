@@ -90,7 +90,7 @@ ul.nav {
 
 /* main */
 
-.section-wrapper {
+/* .section-wrapper {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -98,7 +98,7 @@ ul.nav {
   padding: 15px 0px 30px 0px;
   width: 85%;
   height: auto;
-}
+} */
 
 /* SECTION INTRO MOOD CREATIONS */
 
@@ -523,10 +523,10 @@ div.contacts-address a {
   color: #ffffffa6;
 }
 
-:title {
+/* :title {
   /* transition: 0.01s; */
   /* color: #db0a9cc5; */
-}
+} */
 
 /* [data-tooltip] {
   position: relative;
