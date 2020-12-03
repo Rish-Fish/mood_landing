@@ -584,7 +584,6 @@ footer.span {
   right: 20px;
   z-index: 1;
   transform: translateX(-30%);
-  /* left: inherit; */
 }
 
 .top_btn {
