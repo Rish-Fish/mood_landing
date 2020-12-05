@@ -374,15 +374,6 @@ div.column p {
   padding: 0px 40px 0px 40px;
 }
 
-.name-profession h4 p {
-  /* white-space: nowrap;
-  overflow: auto; */
-  /* text-overflow: ellipsis; */
-  /* font-size: 2.5vw; */
-  /* font-size: 100vh;
-  line-height: 100vh; */
-}
-
 .photo-wrapper {
   display: flex;
   flex-direction: column;
@@ -418,13 +409,6 @@ div.column p {
   text-align: center;
   padding: 0px;
 }
-
-/* div.soc-networks a > img {
-  height: 35%;
-  width: 35%;
-  margin: 0%;
-  padding: 0%;
-} */
 
 div.photo-wrapper p,
 h4 {
@@ -510,11 +494,6 @@ textarea {
   border: 0.4vw#ffffffd3 solid;
 }
 
-/* div.contacts-address span,
-a {
-  color: #ffffffa6;
-} */
-
 div.contacts-address span {
   color: #ffffffa6;
 }
@@ -522,27 +501,6 @@ div.contacts-address span {
 div.contacts-address a {
   color: #ffffffa6;
 }
-
-/* :title {
-  /* transition: 0.01s; */
-  /* color: #db0a9cc5; */
-} */
-
-/* [data-tooltip] {
-  position: relative;
-} */
-
-/* [data-tooltip]::after {
-  content: attr(data-tooltip);
-  position: absolute;
-  left: 20%;
-  top: 30%;
-  width: 20%;
-  background: rgba(255, 255, 230, 0.9);
-  padding: 5px 10px; 
-  border: 1px solid #333;
-  pointer-events: none;
-} */
 
 .map {
   background-color: navy;
