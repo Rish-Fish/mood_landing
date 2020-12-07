@@ -104,7 +104,7 @@ ul.nav {
 
 .intro-wrapper {
   background-color: #db5e4e;
-  background-image: url("../images/mood/images/bg-red.jpg");
+  background-image: url("images/bg-red.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -128,7 +128,7 @@ ul.nav {
   position: relative;
   width: 3%;
   padding-bottom: 3%;
-  background-image: url(/images/twitter.svg);
+  background-image: url(images/twitter.svg);
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -137,7 +137,7 @@ ul.nav {
   position: relative;
   width: 3%;
   padding-bottom: 3%;
-  background-image: url(/images/fb.svg);
+  background-image: url(images/fb.svg);
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -146,7 +146,7 @@ ul.nav {
   position: relative;
   width: 3%;
   padding-bottom: 3%;
-  background-image: url(/images/dribbble.svg);
+  background-image: url(images/dribbble.svg);
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -155,7 +155,7 @@ ul.nav {
   position: relative;
   width: 3%;
   padding-bottom: 3%;
-  background-image: url(/images/behance.svg);
+  background-image: url(images/behance.svg);
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -184,7 +184,7 @@ div.column-1 p {
 /* SECTION WORKS */
 
 .works-wrapper {
-  background-image: url("../images/mood/images/bg-green.png");
+  background-image: url("images/bg-green.png");
   background-size: cover;
   background-position: center;
 }
@@ -219,7 +219,7 @@ div.column-1 p {
 }
 
 .img_1 {
-  background-image: url(/images/mood/images/pic1.jpg);
+  background-image: url(images/pic1.jpg);
 }
 
 .back {
@@ -252,25 +252,25 @@ div.column-1 p {
 }
 
 .img_2 {
-  background-image: url(/images/mood/images/pic2.jpg);
+  background-image: url(images/pic2.jpg);
 }
 .img_3 {
-  background-image: url(/images/mood/images/pic3.jpg);
+  background-image: url(mages/pic3.jpg);
 }
 .img_4 {
-  background-image: url(/images/mood/images/pic4.jpg);
+  background-image: url(images/pic4.jpg);
 }
 .img_5 {
-  background-image: url(/images/mood/images/pic5.jpg);
+  background-image: url(images/pic5.jpg);
 }
 .img_6 {
-  background-image: url(/images/mood/images/pic6.jpg);
+  background-image: url(images/pic6.jpg);
 }
 .img_7 {
-  background-image: url(/images/mood/images/pic7.jpg);
+  background-image: url(images/pic7.jpg);
 }
 .img_8 {
-  background-image: url(/images/mood/images/pic8.jpg);
+  background-image: url(images/pic8.jpg);
 }
 
 /* SECTION PRICES */
@@ -279,7 +279,7 @@ div.column-1 p {
   flex-direction: column;
   display: flex;
   background-color: #25a7ac;
-  background-image: url("../images/mood/images/bg-turg.png");
+  background-image: url("images/bg-turg.png");
   background-size: cover;
   background-position: center;
 }
@@ -436,18 +436,18 @@ p {
 }
 
 .img_Juris {
-  background-image: url(/images/mood/komanda-pict/komanda-01.jpg);
+  background-image: url(images/komanda-pict/komanda-01.jpg);
 }
 .img_Annija {
-  background-image: url(/images/mood/komanda-pict/komanda-02.jpg);
+  background-image: url(images/komanda-pict/komanda-02.jpg);
 }
 
 .img_Kristaps {
-  background-image: url(/images/mood/komanda-pict/komanda-03.jpg);
+  background-image: url(images/komanda-pict/komanda-03.jpg);
 }
 
 .img_Katija {
-  background-image: url(/images/mood/komanda-pict/komanda-04.jpg);
+  background-image: url(images/komanda-pict/komanda-04.jpg);
 }
 
 div.photo-back .img-twitter {
@@ -470,7 +470,7 @@ div.photo-back .img-dribble {
 
 .contacts-wrapper {
   background-color: navy;
-  background-image: url("../images/mood/images/bg-blue.jpg");
+  background-image: url("images/bg-blue.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -545,7 +545,7 @@ div.contacts-address a {
 
 .map {
   background-color: navy;
-  background-image: url("../images/mood/images/map.png");
+  background-image: url("images/map.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
