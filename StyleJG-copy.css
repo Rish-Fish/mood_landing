@@ -250,7 +250,9 @@ div.column-1 p {
 .square:hover .back {
   display: block;
 }
-
+.img_1 {
+  background-image: url(images/pic1.jpg);
+}
 .img_2 {
   background-image: url(images/pic2.jpg);
 }
