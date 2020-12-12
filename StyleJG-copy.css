@@ -407,7 +407,7 @@ div.column p {
   background-size: cover;
   background-position: center center;
   text-align: center;
-  padding: 0px;
+  /* padding: 0px; */
 }
 
 div.photo-wrapper p,
