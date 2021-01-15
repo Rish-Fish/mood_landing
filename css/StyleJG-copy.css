@@ -1,0 +1,610 @@
+body {
+  color: #fdfbfb;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  margin: 20px;
+}
+
+h2 {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+h4 {
+  padding-top: 35%;
+  margin-bottom: 5px;
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+  margin: 5px;
+  color: #fdfbfb;
+}
+
+.nav {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.nav-element {
+  line-height: 5vw;
+  /* padding: 0% 2%; */
+}
+
+.nav-element:hover {
+  border-top: 0.5vw solid white;
+  padding: -10;
+}
+
+ul.nav {
+  padding: 0%;
+}
+
+/* header */
+
+.header-wrapper {
+  background-color: #d5412e;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.menu-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu-left {
+  display: flex;
+  padding-left: 5%;
+  /* flex-shrink: 3; */
+  width: 20%;
+}
+
+.menu-right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0% 5%;
+  height: 60px;
+}
+
+.logo {
+  width: 15%;
+}
+.logo-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.3vw;
+  padding: 7% 1%;
+
+  /* padding-left: 1%; */
+}
+
+/* main */
+
+.section-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  padding: 15px 0px 30px 0px;
+  width: 85%;
+  height: auto;
+}
+
+/* SECTION INTRO MOOD CREATIONS */
+
+.intro-wrapper {
+  background-color: #db5e4e;
+  background-image: url("/mood_landing/images/bg-red.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.intro-mood {
+  padding-top: 15%;
+  padding-bottom: 10%;
+}
+
+.soc-networks {
+  display: flex;
+  justify-content: center;
+  /* height: 100%;
+  width: 25%;
+  align-items: center; */
+  /* height: 20px;
+  margin: 10px; */
+}
+.fas {
+  /* font-size: 10em (!important); */
+  color: hsl(199, 77%, 66%);
+  /* font-family: "FontAwesome" !important; */
+}
+
+.icons-services {
+  height: 5em;
+}
+.img-twitter {
+  position: relative;
+  width: 3%;
+  padding-bottom: 3%;
+  background-image: url(/mood_landing/images/twitter.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.img-fb {
+  position: relative;
+  width: 3%;
+  padding-bottom: 3%;
+  background-image: url(/mood_landing/images/fb.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.img-dribble {
+  position: relative;
+  width: 3%;
+  padding-bottom: 3%;
+  background-image: url(/mood_landing/images/dribbble.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.img-behance {
+  position: relative;
+  width: 3%;
+  padding-bottom: 3%;
+  background-image: url(/mood_landing/images/behance.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+div.soc-networks a {
+  height: 100%;
+  margin: 10px;
+}
+
+/* SECTION SERVICES */
+
+.services-wrapper {
+  background-color: #d33523;
+}
+
+.column-1 {
+  flex-grow: 1;
+  flex-basis: 150px;
+  margin: 15px;
+}
+
+div.column-1 p {
+  padding: 0px;
+}
+
+/* SECTION WORKS */
+
+.works-wrapper {
+  background-image: url("/mood_landing/images/bg-green.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.toggles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.button1 {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  text-align: center;
+  padding: 5px;
+  line-height: 10px;
+}
+
+.button1:hover {
+  border: rgb(255, 255, 255) solid 2px;
+  border-radius: 5px;
+  padding: 4px;
+  margin: -2px;
+}
+
+.gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 2vw;
+}
+
+.img_1 {
+  background-image: url(/mood_landing/images/pic1.jpg);
+}
+
+.back {
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  padding-bottom: 100%;
+  background: rgba(44, 146, 90, 0.7);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  display: none;
+}
+
+.back h4 {
+  padding-top: 30%;
+}
+
+.square {
+  position: relative;
+  width: 25%;
+  padding-bottom: 25%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.square:hover .back {
+  display: block;
+}
+.img_1 {
+  background-image: url(/mood_landing/images/pic1.jpg);
+}
+.img_2 {
+  background-image: url(/mood_landing/images/pic2.jpg);
+}
+.img_3 {
+  background-image: url(/mood_landing/images/pic3.jpg);
+}
+.img_4 {
+  background-image: url(/mood_landing/images/pic4.jpg);
+}
+.img_5 {
+  background-image: url(/mood_landing/images/pic5.jpg);
+}
+.img_6 {
+  background-image: url(/mood_landing/images/pic6.jpg);
+}
+.img_7 {
+  background-image: url(/mood_landing/images/pic7.jpg);
+}
+.img_8 {
+  background-image: url(/mood_landing/images/pic8.jpg);
+}
+
+/* SECTION PRICES */
+
+.prices-wrapper {
+  flex-direction: column;
+  display: flex;
+  background-color: #25a7ac;
+  background-image: url("/mood_landing/images/bg-turg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+section.price-column-wrapper .columns-wrapper {
+  width: 85%;
+}
+
+#base-columns-container {
+  width: 100%;
+  background-color: #2a5759;
+}
+
+/* .price-column-wrapper {
+  flex-direction: row;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  width: 85%;
+  height: 100%;
+} */
+
+.columns-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  /* width: 85%; */
+}
+
+.column {
+  position: relative;
+  flex-flow: column wrap;
+  align-content: center;
+  text-align: center;
+  width: 25%;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+
+div.column p {
+  color: rgba(211, 252, 253, 0.7);
+}
+
+.column:hover p {
+  color: rgb(229, 253, 253);
+}
+
+.column:hover button {
+  background-color: rgba(172, 239, 241, 0.384);
+  border: rgba(255, 255, 255, 0.5) solid 2px;
+}
+
+.column:hover {
+  background-color: rgba(78, 207, 216, 0.1);
+}
+
+.col-title {
+  text-shadow: 1px 1px 3px #151b318f;
+  border-bottom: rgba(255, 255, 255, 0.3) solid 1px;
+  padding-bottom: 25px;
+  padding-top: 5px;
+}
+
+.fat-font {
+  font-size: 28px;
+}
+
+.button2 {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  padding: 3% 10%;
+  border: rgb(255, 255, 255) solid 2px;
+  border-radius: 5px;
+}
+
+.photo-gallery {
+  padding-top: 20px;
+}
+
+/* SECTION CREW */
+
+.crew-wrapper {
+  background-color: #57aa68;
+}
+
+.section-wrapper p {
+  padding: 0px 40px 0px 40px;
+}
+
+.name-profession h4 p {
+  /* white-space: nowrap;
+  overflow: auto; */
+  /* text-overflow: ellipsis; */
+  /* font-size: 2.5vw; */
+  /* font-size: 100vh;
+  line-height: 100vh; */
+}
+
+.photo-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 25%;
+  align-items: center;
+  font-size: 2vw;
+}
+
+.photo {
+  position: relative;
+  width: 93%;
+  padding-bottom: 120%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 7px;
+  overflow: scroll;
+}
+
+.photo:hover .photo-back {
+  display: block;
+}
+
+.photo-back {
+  position: absolute;
+  display: none;
+  width: 100%;
+  padding-bottom: 100%;
+  background: rgba(44, 146, 90, 0.7);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding: 0px;
+}
+
+/* div.soc-networks a > img {
+  height: 35%;
+  width: 35%;
+  margin: 0%;
+  padding: 0%;
+} */
+
+div.photo-wrapper p,
+h4 {
+  padding: 0px;
+}
+
+div.photo-back h4,
+p {
+  padding: 5% 5%;
+}
+
+.img_Juris {
+  background-image: url(/mood_landing/images/komanda-pict/komanda-01.jpg);
+}
+.img_Annija {
+  background-image: url(/mood_landing/images/komanda-pict/komanda-02.jpg);
+}
+
+.img_Kristaps {
+  background-image: url(/mood_landing/images/komanda-pict/komanda-03.jpg);
+}
+
+.img_Katija {
+  background-image: url(/mood_landing/images/komanda-pict/komanda-04.jpg);
+}
+
+div.photo-back .img-twitter {
+  width: 10%;
+  padding-bottom: 10%;
+  background-color: hsla(0, 1%, 14%, 0.308);
+}
+div.photo-back .img-fb {
+  width: 10%;
+  padding-bottom: 10%;
+  background-color: hsla(0, 1%, 14%, 0.308);
+}
+div.photo-back .img-dribble {
+  width: 10%;
+  padding-bottom: 10%;
+  background-color: hsla(0, 1%, 14%, 0.308);
+}
+
+/* SECTION CONTACTS */
+
+.contacts-wrapper {
+  background-color: navy;
+  background-image: url("/mood_landing/images/bg-blue.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 60%;
+  margin-bottom: 5%;
+}
+
+input,
+textarea {
+  -webkit-writing-mode: horizontal-tb !important;
+  background-color: rgba(38, 39, 100, 0.774);
+  color: #ffffffa6;
+  border: 0.4vw rgba(47, 61, 112, 0.741) solid;
+  border-radius: 1vw;
+  padding: 1.5vw;
+  margin: 0.5vw 0vw;
+}
+
+.form-field {
+  background-color: rgba(21, 28, 50, 0.007);
+  border: 0.4vw#ffffffd5 solid;
+  font: 1em sans-serif;
+}
+
+::placeholder {
+  color: #ffffffa6;
+  font: 1em sans-serif;
+}
+
+.active-field:hover {
+  border: 0.4vw#ffffffd3 solid;
+}
+
+/* div.contacts-address span,
+a {
+  color: #ffffffa6;
+} */
+
+div.contacts-address span {
+  color: #ffffffa6;
+}
+
+div.contacts-address a {
+  color: #ffffffa6;
+}
+
+:title {
+  /* transition: 0.01s; */
+  /* color: #db0a9cc5; */
+}
+
+/* [data-tooltip] {
+  position: relative;
+} */
+
+/* [data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  width: 20%;
+  background: rgba(255, 255, 230, 0.9);
+  padding: 5px 10px; 
+  border: 1px solid #333;
+  pointer-events: none;
+} */
+
+.map {
+  background-color: navy;
+  background-image: url("/mood_landing/images/map.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  height: 75%;
+  padding-bottom: 75%;
+}
+
+/* FOOTER */
+
+.footer-wrapper {
+  background-color: #152357;
+  height: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  padding-top: 5%;
+}
+
+footer.span {
+  /* color: #ffffff13; */
+  font: 0.1vw sans-serif #ffffff31;
+}
+
+/* SCROLL-BUTTON */
+
+.sckroll-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.to_top_container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  transform: translateX(-30%);
+  /* left: inherit; */
+}
+
+.top_btn {
+  background-color: rgba(10, 10, 10, 0.3);
+  border-radius: 10px;
+  padding: 30px;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+}
