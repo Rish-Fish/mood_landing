@@ -581,18 +581,23 @@ footer.span {
 
 /* SCROLL-BUTTON */
 
-.sckroll-container {
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
-}
+.scroll-container {
+  position: absolute;
+  height: 100%;
+
+  /* margin: 0 auto; */
+
 
 .to_top_container {
-  position: fixed;
+  position:  sticky;
+  top: 79%;
   bottom: 20px;
   right: 20px;
-  z-index: 1;
-  transform: translateX(-30%);
+  margin-left: 85%;
+  margin-bottom: 5%;
+  margin-right: 2%;
+  z-index: 3;
+  /* transform: translateX(-30%); */
   /* left: inherit; */
 }
 
