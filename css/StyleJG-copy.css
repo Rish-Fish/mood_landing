@@ -590,37 +590,33 @@ div.contacts-address a {
 }
 
 footer.span {
-  /* color: #ffffff13; */
   font: 0.1vw sans-serif #ffffff31;
 }
 
 /* SCROLL-BUTTON */
 
 .scroll-container {
+  position: relative;
+}
+.scroll-container-2 {
   position: absolute;
   height: 100%;
-
-  /* margin: 0 auto; */
-
-
+  width: 100%;
+}
 .to_top_container {
-  position:  sticky;
-  top: 79%;
-  bottom: 20px;
-  right: 20px;
-  margin-left: 85%;
-  margin-bottom: 5%;
+  position: sticky;
+  top: 82%;
+  margin-left: 82%;
+  margin-bottom: 2%;
   margin-right: 2%;
-  z-index: 3;
-  /* transform: translateX(-30%); */
-  /* left: inherit; */
+  z-index: 5;
 }
 
 .top_btn {
   background-color: rgba(10, 10, 10, 0.3);
   border-radius: 10px;
-  padding: 30px;
+  padding: 20px 25px;
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-align: center;
 }
