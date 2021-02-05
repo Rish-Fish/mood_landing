@@ -347,6 +347,7 @@ section.price-column-wrapper .columns-wrapper {
   align-content: center;
   text-align: center;
   width: 25%;
+  min-width: 8rem;
   background-size: cover;
   background-position: center center;
   padding-top: 0px;
@@ -540,11 +541,6 @@ textarea {
   border: 0.4vw#ffffffd3 solid;
 }
 
-/* div.contacts-address span,
-a {
-  color: #ffffffa6;
-} */
-
 div.contacts-address span {
   color: #ffffffa6;
 }
@@ -553,7 +549,7 @@ div.contacts-address a {
   color: #ffffffa6;
 }
 
-:title {
+/* :title { */
   /* transition: 0.01s; */
   /* color: #db0a9cc5; */
 }
