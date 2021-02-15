@@ -10,6 +10,7 @@ button {
   font: inherit;
   color: inherit;
   background-color: transparent; 
+  cursor: pointer;
   
 }
 
@@ -93,13 +94,13 @@ ul.nav {
 }
 
 .logo {
-  width: 25px;
-  padding: 5px;
+  width: 2em;
+  padding: 0.5em;
 }
 .logo-title {
   display: flex;
   align-items: center;
-  font-size: 10px;
+  font-size: 0.64em;
   padding: 7px 3px;
   width: 100px;
 
@@ -512,6 +513,7 @@ div.photo-back .img-dribble {
   flex-direction: column;
   align-self: center;
   width: 60%;
+  min-width: 15rem;
   margin-bottom: 5%;
 }
 
@@ -524,6 +526,8 @@ textarea {
   border-radius: 1vw;
   padding: 1.5vw;
   margin: 0.5vw 0vw;
+  cursor: pointer;
+
 }
 
 .form-field {
@@ -547,6 +551,10 @@ div.contacts-address span {
 
 div.contacts-address a {
   color: #ffffffa6;
+}
+input[value="SŪTĪT ZĪŃU"]:hover {
+  font-size: 1.01em;
+  color: rgb(243, 242, 240);
 }
 
 /* :title { */
@@ -621,4 +629,47 @@ footer.span {
   font-size: 1.2rem;
   text-align: center;
   margin: -25px;
+}
+
+
+@media only screen and (max-width: 738px) {
+  /* MENU */
+  .menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-self: center;
+
+  }
+  .logo {
+    width: 1.5em;
+    padding: 0;
+  }
+  .logo-title {
+   display: none;
+  }
+  .menu-right{
+    padding-right: 7%;
+    height: 4em;
+  }
+  .menu-left {
+    width: 2em;
+    padding-left: ;
+  }
+  .nav-element {
+    line-height: 1.2em;  
+  }
+  /* CREW */
+  /* .gallery-wrapper-mobile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; */
+  
+  .top_btn {
+  border-radius: 10px 0 0 10px;
+  padding: 8px 8px;
+  font-size: 1rem;
+  margin: -16px;
+}
+
 }
