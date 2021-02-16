@@ -557,10 +557,10 @@ input[value="SŪTĪT ZĪŃU"]:hover {
   color: rgb(243, 242, 240);
 }
 
-/* :title { */
-  /* transition: 0.01s; */
-  /* color: #db0a9cc5; */
-}
+/* :title {
+  transition: 0.01s;
+  color: #db0a9cc5;
+} */
 
 /* [data-tooltip] {
   position: relative;
@@ -665,6 +665,10 @@ footer.span {
     flex-direction: row;
     flex-wrap: nowrap; */
   
+  .scroll-container-2 {
+    right: 1rem;
+  }
+
   .top_btn {
   border-radius: 10px 0 0 10px;
   padding: 8px 8px;
