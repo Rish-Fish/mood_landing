@@ -1,7 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+img {
+  /* max-width: 100%; */
+  display: block;
+}
+
+
 body {
   color: #fdfbfb;
   margin: 0;
   font-family: "Roboto", sans-serif;
+
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
 }
 
 button {
@@ -219,6 +239,9 @@ div.column-1 p {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+/* .wrap-button1 {
+  height: 30px;
+} */
 button:focus {
  outline: none;
 }
