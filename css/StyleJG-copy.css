@@ -102,6 +102,9 @@ ul.nav {
   /* flex-shrink: 3; */
   width: 30%;
 }
+.mobile-gototop {
+  display: none;
+}
 
 .menu-right {
   display: flex;
@@ -667,26 +670,31 @@ footer.span {
   .logo {
     margin-right: 1em;
   }
-  .logo-title {
+
+  .logo-title, 
+  .desktop-gototop {
    display: none;
   }
+
   .menu-right{
     padding-right: 7%;
     height: 4em;
   }
+
   .menu-left {
     width: 2.6em;
     padding-left: ;
   }
+ 
+  .mobile-gototop {
+    display: block;
+
+  }
   .nav-element {
     line-height: 1.2em;  
   }
+
   /* CREW */
-  /* .gallery-wrapper-mobile {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; */
-  
   .scroll-container-2 {
     right: 1rem;
   }
