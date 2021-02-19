@@ -5,14 +5,14 @@
 }
 .input-wrapper label {
   display: inline-block;
-  width: 7px;
-  height: 7px;
-  border: solid 2px white;
-  border-radius: 10px;
+  width: 1em;
+  height: 1em;
+  border: solid 0.15em white;
+  border-radius: 10em;
   background-color: transparent;
   cursor: pointer;
   transition-duration: .8s;
-  margin: 0 7px;
+  margin: 0 0.6em;
 }
 
 .input-wrapper {
