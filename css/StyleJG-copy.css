@@ -694,11 +694,23 @@ footer.span {
     line-height: 1.2em;  
   }
 
+  /* INTRO */
+  .section-wrapper p {
+    padding: 0 0.3em;
+}
+
   /* CREW */
   .scroll-container-2 {
     right: 1rem;
   }
-
+  .photo-wrapper {
+    font-size: 1.5em;
+    /* margin: 0; */
+  }
+  div.photo-wrapper p {
+    margin: 0;
+  }
+  
   .top_btn {
   border-radius: 10px 0 0 10px;
   padding: 8px 8px;
