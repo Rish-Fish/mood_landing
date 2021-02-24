@@ -7,7 +7,6 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 img {
-  /* max-width: 100%; */
   display: block;
 }
 
@@ -16,7 +15,6 @@ body {
   color: #fdfbfb;
   margin: 0;
   font-family: "Roboto", sans-serif;
-
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
@@ -30,8 +28,7 @@ button {
   font: inherit;
   color: inherit;
   background-color: transparent; 
-  cursor: pointer;
-  
+  cursor: pointer; 
 }
 
 h1 {
@@ -65,7 +62,6 @@ a {
 
 .nav-element {
   line-height: 5vw;
-  /* padding: 0% 2%; */
 }
 
 .nav-element:hover {
@@ -99,9 +95,9 @@ ul.nav {
 .menu-left {
   display: flex;
   padding-left: 5%;
-  /* flex-shrink: 3; */
   width: 30%;
 }
+
 .mobile-gototop {
   display: none;
 }
@@ -120,15 +116,12 @@ ul.nav {
   width: 3em;
   padding: 0.5em;
 }
+
 .logo-title {
   display: flex;
   align-items: center;
   font-size: 0.64em;
   padding: 7px 3px;
-  /* width: 100px; */
-
-
-  /* padding-left: 1%; */
 }
 
 /* main */
@@ -171,6 +164,7 @@ div.soc-networks a {
 .fab {
   color: rgba(10, 10, 10, 0.726);
 }
+
 .fas {
   color: hsl(199, 77%, 66%);
 }
@@ -242,9 +236,7 @@ div.column-1 p {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-/* .wrap-button1 {
-  height: 30px;
-} */
+
 button:focus {
  outline: none;
 }
@@ -263,8 +255,6 @@ button:focus {
 .button1:focus {
   border: rgb(255, 255, 255) solid 2px;
   border-radius: 5px;
-  /* padding: 4px;
-  margin: -2px; */
 }
 
 .gallery-wrapper {
@@ -351,21 +341,12 @@ section.price-column-wrapper .columns-wrapper {
   background-color: #2a5759;
 }
 
-/* .price-column-wrapper {
-  flex-direction: row;
-  display: flex;
-  text-align: center;
-  margin: auto;
-  width: 85%;
-  height: 100%;
-} */
 
 .columns-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
-  /* width: 85%; */
 }
 
 .column {
@@ -432,15 +413,6 @@ div.column p {
   padding: 0px 40px 0px 40px;
 }
 
-.name-profession h4 p {
-  /* white-space: nowrap;
-  overflow: auto; */
-  /* text-overflow: ellipsis; */
-  /* font-size: 2.5vw; */
-  /* font-size: 100vh;
-  line-height: 100vh; */
-}
-
 .photo-wrapper {
   display: flex;
   flex-direction: column;
@@ -477,13 +449,6 @@ div.column p {
   padding: 0px;
 }
 
-/* div.soc-networks a > img {
-  height: 35%;
-  width: 35%;
-  margin: 0%;
-  padding: 0%;
-} */
-
 div.photo-wrapper p,
 h4 {
   padding: 0px;
@@ -508,22 +473,6 @@ p {
 .img_Katija {
   background-image: url(/mood_landing/images/komanda-pict/komanda-04.jpg);
 }
-
-/* div.photo-back .img-soc-net {
-  width: 10%;
-  padding-bottom: 10%;
-  background-color: hsla(0, 1%, 14%, 0.308);
-} */
-/* div.photo-back .img-fb {
-  width: 10%;
-  padding-bottom: 10%;
-  background-color: hsla(0, 1%, 14%, 0.308);
-}
-div.photo-back .img-dribble {
-  width: 10%;
-  padding-bottom: 10%;
-  background-color: hsla(0, 1%, 14%, 0.308);
-} */
 
 /* SECTION CONTACTS */
 
@@ -583,38 +532,6 @@ input[value="SŪTĪT ZĪŃU"]:hover {
   color: rgb(243, 242, 240);
 }
 
-/* :title {
-  transition: 0.01s;
-  color: #db0a9cc5;
-} */
-
-/* [data-tooltip] {
-  position: relative;
-} */
-
-/* [data-tooltip]::after {
-  content: attr(data-tooltip);
-  position: absolute;
-  left: 20%;
-  top: 30%;
-  width: 20%;
-  background: rgba(255, 255, 230, 0.9);
-  padding: 5px 10px; 
-  border: 1px solid #333;
-  pointer-events: none;
-} */
-
-/* .map {
-  background-color: navy;
-  background-image: url("/mood_landing/images/map.png");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 75%;
-  padding-bottom: 75%;
-} */
-
 /* FOOTER */
 
 .footer-wrapper {
@@ -665,8 +582,8 @@ footer.span {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-self: center;
-
   }
+
   .logo {
     margin-right: 1em;
   }
@@ -688,8 +605,8 @@ footer.span {
  
   .mobile-gototop {
     display: block;
-
   }
+
   .nav-element {
     line-height: 1.2em;  
   }
@@ -697,16 +614,24 @@ footer.span {
   /* INTRO */
   .section-wrapper p {
     padding: 0 0.3em;
-}
+  }
 
   /* CREW */
   .scroll-container-2 {
     right: 1rem;
   }
+
   .photo-wrapper {
     font-size: 1em;
-    /* margin: 0; */
+  } 
+  .crew-name {
+    font-size: 1.4em;
+  } 
+
+  .photo-back {
+    font-size: 1.1em;
   }
+
   div.photo-wrapper p {
     margin: 0;
   }
@@ -716,7 +641,5 @@ footer.span {
   padding: 8px 8px;
   font-size: 1rem;
   margin: -16px;
-}
-
-
+  }
 }
