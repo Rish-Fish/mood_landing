@@ -658,7 +658,7 @@ footer.span {
 }
 
 
-@media only screen and (max-width: 738px) {
+@media only screen and (max-width: 740px) {
   /* MENU */
   .menu-wrapper {
     display: flex;
@@ -704,7 +704,7 @@ footer.span {
     right: 1rem;
   }
   .photo-wrapper {
-    font-size: 1.5em;
+    font-size: 1em;
     /* margin: 0; */
   }
   div.photo-wrapper p {
