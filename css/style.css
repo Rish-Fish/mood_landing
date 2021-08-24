@@ -10,25 +10,24 @@ img {
   display: block;
 }
 
-
 body {
   color: #fdfbfb;
-  margin: 0;
-  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  font-family: "Roboto", Arial, sans-serif;
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  /* max-width: 1440px; */
 }
-
 
 button {
   padding: 0;
   border: none;
   font: inherit;
   color: inherit;
-  background-color: transparent; 
-  cursor: pointer; 
+  background-color: transparent;
+  cursor: pointer;
 }
 
 h1 {
@@ -90,11 +89,13 @@ ul.nav {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .menu-left {
   display: flex;
-  padding-left: 5%;
+  /* padding-left: 5%; */
   width: 30%;
 }
 
@@ -108,7 +109,7 @@ ul.nav {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 0% 5%;
+  /* padding: 0% 5%; */
   height: 60px;
 }
 
@@ -130,17 +131,18 @@ ul.nav {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: auto;
   padding: 15px 0px 30px 0px;
-  width: 85%;
   height: auto;
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 /* SECTION INTRO MOOD CREATIONS */
 
 .intro-wrapper {
   background-color: #db5e4e;
-  background-image: url("/mood_landing/images/bg-red.jpg");
+  background-image: url("../images/bg-red.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -225,7 +227,7 @@ div.column-1 p {
 /* SECTION WORKS */
 
 .works-wrapper {
-  background-image: url("/mood_landing/images/bg-green.png");
+  background-image: url("../images/bg-green.png");
   background-size: cover;
   background-position: center;
   box-sizing: border-box;
@@ -238,7 +240,7 @@ div.column-1 p {
 }
 
 button:focus {
- outline: none;
+  outline: none;
 }
 
 .button1 {
@@ -256,7 +258,10 @@ button:focus {
   border: rgb(255, 255, 255) solid 2px;
   border-radius: 5px;
 }
-
+.slide-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 .gallery-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -265,7 +270,7 @@ button:focus {
 }
 
 .img_1 {
-  background-image: url(/mood_landing/images/pic1.jpg);
+  background-image: url("../images/pic1.jpg");
 }
 
 .back {
@@ -297,28 +302,28 @@ button:focus {
   display: block;
 }
 .img_1 {
-  background-image: url(/mood_landing/images/pic1.jpg);
+  background-image: url("../images/pic1.jpg");
 }
 .img_2 {
-  background-image: url(/mood_landing/images/pic2.jpg);
+  background-image: url("../images/pic2.jpg");
 }
 .img_3 {
-  background-image: url(/mood_landing/images/pic3.jpg);
+  background-image: url("../images/pic3.jpg");
 }
 .img_4 {
-  background-image: url(/mood_landing/images/pic4.jpg);
+  background-image: url("../images/pic4.jpg");
 }
 .img_5 {
-  background-image: url(/mood_landing/images/pic5.jpg);
+  background-image: url("../images/pic5.jpg");
 }
 .img_6 {
-  background-image: url(/mood_landing/images/pic6.jpg);
+  background-image: url("../images/pic6.jpg");
 }
 .img_7 {
-  background-image: url(/mood_landing/images/pic7.jpg);
+  background-image: url("../images/pic7.jpg");
 }
 .img_8 {
-  background-image: url(/mood_landing/images/pic8.jpg);
+  background-image: url("../images/pic8.jpg");
 }
 
 /* SECTION PRICES */
@@ -327,20 +332,23 @@ button:focus {
   flex-direction: column;
   display: flex;
   background-color: #25a7ac;
-  background-image: url("/mood_landing/images/bg-turg.png");
+  background-image: url("../images/bg-turg.png");
   background-size: cover;
   background-position: center;
 }
 
-section.price-column-wrapper .columns-wrapper {
+/* .section.price-column-wrapper .columns-wrapper {
   width: 85%;
+} */
+.price-column-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 #base-columns-container {
   width: 100%;
   background-color: #2a5759;
 }
-
 
 .columns-wrapper {
   display: flex;
@@ -460,25 +468,25 @@ p {
 }
 
 .img_Juris {
-  background-image: url(/mood_landing/images/komanda-pict/komanda-01.jpg);
+  background-image: url("../images/komanda-pict/komanda-01.jpg");
 }
 .img_Annija {
-  background-image: url(/mood_landing/images/komanda-pict/komanda-02.jpg);
+  background-image: url("../images/komanda-pict/komanda-02.jpg");
 }
 
 .img_Kristaps {
-  background-image: url(/mood_landing/images/komanda-pict/komanda-03.jpg);
+  background-image: url("../images/komanda-pict/komanda-03.jpg");
 }
 
 .img_Katija {
-  background-image: url(/mood_landing/images/komanda-pict/komanda-04.jpg);
+  background-image: url("../images/komanda-pict/komanda-04.jpg");
 }
 
 /* SECTION CONTACTS */
 
 .contacts-wrapper {
   background-color: navy;
-  background-image: url("/mood_landing/images/bg-blue.jpg");
+  background-image: url("../images/bg-blue.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -502,7 +510,6 @@ textarea {
   padding: 1.5vw;
   margin: 0.5vw 0vw;
   cursor: pointer;
-
 }
 
 .form-field {
@@ -574,7 +581,6 @@ footer.span {
   margin: -25px;
 }
 
-
 @media only screen and (max-width: 740px) {
   /* MENU */
   .menu-wrapper {
@@ -588,12 +594,12 @@ footer.span {
     margin-right: 1em;
   }
 
-  .logo-title, 
+  .logo-title,
   .desktop-gototop {
-   display: none;
+    display: none;
   }
 
-  .menu-right{
+  .menu-right {
     padding-right: 7%;
     height: 4em;
   }
@@ -602,13 +608,13 @@ footer.span {
     width: 2.6em;
     padding-left: ;
   }
- 
+
   .mobile-gototop {
     display: block;
   }
 
   .nav-element {
-    line-height: 1.2em;  
+    line-height: 1.2em;
   }
 
   /* INTRO */
@@ -623,10 +629,10 @@ footer.span {
 
   .photo-wrapper {
     font-size: 1em;
-  } 
+  }
   .crew-name {
     font-size: 1.4em;
-  } 
+  }
 
   .photo-back {
     font-size: 1.1em;
@@ -635,11 +641,11 @@ footer.span {
   div.photo-wrapper p {
     margin: 0;
   }
-  
+
   .top_btn {
-  border-radius: 10px 0 0 10px;
-  padding: 8px 8px;
-  font-size: 1rem;
-  margin: -16px;
+    border-radius: 10px 0 0 10px;
+    padding: 8px 8px;
+    font-size: 1rem;
+    margin: -16px;
   }
 }
