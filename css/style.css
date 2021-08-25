@@ -53,7 +53,10 @@ a {
   color: #fdfbfb;
 }
 
-
+.base-desc {
+  font-size: 17px;
+  line-height: 150%;
+}
 
 /* header */
 .nav {
@@ -67,16 +70,16 @@ a {
 .nav-item {
   line-height: 55px;
   font-size: 18px;
+  transition: all .2s ease-in-out;
+
 }
 
 .nav-element:hover {
   border-top: 3px solid white;
   padding-top: 10px;
+  /* transition: all .05s ease-in-out; */
 }
 
-/* ul.nav {
-  padding: 0%;
-} */
 
 .header-wrapper {
   background-color: #d5412e;
@@ -127,7 +130,9 @@ a {
   /* height: 60px; */
 }
 
-
+.mobile-menu-wrap {
+  display: none;
+}
 
 /* main */
 
@@ -396,6 +401,7 @@ div.column p {
   border-bottom: rgba(255, 255, 255, 0.3) solid 1px;
   padding-bottom: 25px;
   padding-top: 5px;
+  font-size: 17px;
 }
 
 .fat-font {
@@ -660,6 +666,6 @@ footer.span {
   }
   .mobile-toggle {
     display: block;
-    
+
   }
 }
