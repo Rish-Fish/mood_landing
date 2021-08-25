@@ -105,10 +105,29 @@ a {
   display: flex;
   width: 30%;
 }
-.logo {
+ 
+.mask {
+  width: 40px;
+  height: 47px;
+  background-color: rgb(253, 251, 251);
+  cursor: pointer;
+  margin-left: 10px;
+  -webkit-mask-image: url("../images/logo-vert.svg");
+  -webkit-mask-size: cover;
+  transition: 1.5s;
+}
+
+.mask:hover {
+  background-color: rgba(10, 10, 10, 0.726);
+}
+
+
+/* .logo {
   width: 3em;
   padding: 0.5em;
-}
+  transition: all .5s ease-in-out;
+} */
+
 
 .logo-title {
   display: flex;
@@ -174,10 +193,26 @@ div.soc-networks a {
 
 .fab {
   color: rgba(10, 10, 10, 0.726);
+  transition: .5s ease-in-out;
+  cursor: pointer;
+
+}
+.fab:hover {
+  color: rgb(248, 217, 217);
+  transition: .5s ease-in-out;
+
 }
 
 .fas {
   color: hsl(199, 77%, 66%);
+  transition: .5s ease-in-out;
+  cursor: pointer;
+
+}
+.fas:hover {
+  color: hsl(184, 94%, 52%);
+  transition: .5s ease-in-out;
+
 }
 
 /* .img-twitter {
@@ -227,11 +262,19 @@ div.soc-networks a {
   flex-basis: 150px;
   margin: 15px;
   text-align: center;
+  border: 1px #fdfbfb98 solid;
+  border-radius: 8px;
+  padding: 4%;
+  min-width: 300px;
+  max-width: 300px;
+  /* justify-self: center; */
 }
 
-div.column-1 p {
+.column-1 .base-desc:last-child {
+  /* text-align: left; */
   padding: 0px;
 }
+
 
 /* SECTION WORKS */
 
@@ -667,5 +710,12 @@ footer.span {
   .mobile-toggle {
     display: block;
 
+  }
+  /* Intro */
+  .column-1 {
+    min-width: 200px;
+  }
+  .column-1 .base-desc:last-child {
+    font-size: 14px;
   }
 }
