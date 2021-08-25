@@ -49,6 +49,8 @@ input:checked + label {
 
 #select1:checked ~ div #slide1 {
   display: block;
+  transition-duration: .8s;
+
 }
 
 #select2:checked ~ div #slide2 {

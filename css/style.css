@@ -718,4 +718,31 @@ footer.span {
   .column-1 .base-desc:last-child {
     font-size: 14px;
   }
+
+  /* Works gallery */
+  .slide-wrapper {
+    min-width: 250px;
+  }
+  .square {
+    width: 35%;
+    padding-bottom: 35%;
+  }
+ 
+}
+
+@media only screen and (max-width: 600px) {
+    /* Works gallery */
+  .button1 {
+    padding: 10px;
+  }
+  .toggles {
+    justify-content: center;
+  }
+  .slide-wrapper {
+    min-width: 250px;
+  }
+  .square {
+    width: 50%;
+    padding-bottom: 50%;
+  }
 }
