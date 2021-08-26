@@ -133,7 +133,7 @@ a {
   display: flex;
   align-items: center;
   font-size: 12px;
-  padding: 7px 3px;
+  padding: 7px 5px;
 }
 .mobile-gototop {
   display: none;
@@ -291,7 +291,7 @@ div.soc-networks a {
   justify-content: space-around;
 }
 
-button:focus {
+.button1:focus {
   outline: none;
 }
 
@@ -303,6 +303,9 @@ button:focus {
   padding: 5px;
   line-height: 11px;
   text-transform: uppercase;
+  transition: all .2s ease-in-out;
+
+  
 }
 
 .button1:hover,
@@ -389,17 +392,16 @@ button:focus {
   background-position: center;
 }
 
-/* .section.price-column-wrapper .columns-wrapper {
-  width: 85%;
-} */
+
 .price-column-wrapper {
   max-width: 1440px;
   margin: 0 auto;
 }
 
-#base-columns-container {
+.base-columns-container {
   width: 100%;
   background-color: #2a5759;
+  cursor: pointer;
 }
 
 .columns-wrapper {
@@ -421,30 +423,36 @@ button:focus {
   padding-top: 0px;
   padding-bottom: 15px;
 }
-
-div.column p {
-  color: rgba(211, 252, 253, 0.7);
-}
-
-.column:hover p {
-  color: rgb(229, 253, 253);
-}
-
-.column:hover button {
-  background-color: rgba(172, 239, 241, 0.384);
-  border: rgba(255, 255, 255, 0.5) solid 2px;
-}
-
-.column:hover {
-  background-color: rgba(78, 207, 216, 0.1);
-}
-
 .col-title {
   text-shadow: 1px 1px 3px #151b318f;
   border-bottom: rgba(255, 255, 255, 0.3) solid 1px;
   padding-bottom: 25px;
   padding-top: 5px;
   font-size: 17px;
+  color: rgba(211, 252, 253, 0.7);
+}
+.col-title-white {
+  color: #fdfbfb;
+}
+
+.col-title:hover {
+  color: rgb(229, 253, 253);
+}
+
+.button2:hover {
+  background-color: rgba(172, 239, 241, 0.384);
+  border: rgba(255, 255, 255, 0.5) solid 2px;
+}
+.button2:active,
+.button2:focus {
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.column:hover {
+  background-color: rgba(78, 207, 216, 0.1);
+  transition: all .3s ease-in-out;
+
 }
 
 .fat-font {
@@ -458,6 +466,9 @@ div.column p {
   padding: 3% 10%;
   border: rgb(255, 255, 255) solid 2px;
   border-radius: 5px;
+  text-shadow: 1px 1px 3px #151b318f;
+  transition: all .2s ease-in-out;
+
 }
 
 .photo-gallery {
@@ -634,6 +645,7 @@ footer.span {
   margin: -25px;
 }
 
+/* tablet */
 @media only screen and (max-width: 1025px) {
   /* MENU */
   .menu-wrapper {
@@ -702,6 +714,7 @@ footer.span {
     margin: -16px;
   }
 }
+/* mobile */
 @media only screen and (max-width: 767px) {
   /* Header */
   .menu-right {
@@ -729,11 +742,12 @@ footer.span {
   }
  
 }
-
+/* mini mobile */
 @media only screen and (max-width: 600px) {
     /* Works gallery */
   .button1 {
     padding: 10px;
+    
   }
   .toggles {
     justify-content: center;
