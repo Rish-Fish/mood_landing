@@ -316,6 +316,8 @@ div.soc-networks a {
 .slide-wrapper {
   max-width: 1440px;
   margin: 0 auto;
+  margin-top: 10px;
+
 }
 .gallery-wrapper {
   display: flex;
