@@ -655,8 +655,9 @@ footer.span {
   .gallery-wrapper {
     font-size: 14px;
   }
-  .works-title-back {
-
+  .section-base-desc {
+    font-size: 15px;
+    padding: 0 10%;
   }
   /* CREW */
 
