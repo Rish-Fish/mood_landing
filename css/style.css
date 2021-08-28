@@ -587,7 +587,7 @@ input[value="SŪTĪT ZĪŃU"]:hover {
   padding-top: 5%;
 }
 
-footer.span {
+.footer-desc {
   font: 0.1vw sans-serif #ffffff31;
 }
 
