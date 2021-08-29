@@ -750,7 +750,6 @@ input[value="SŪTĪT ZĪŃU"]:hover {
     cursor: pointer;
   }
   
-  
   .mobile-menu {
     display: flex;
     flex-direction: column;
@@ -766,7 +765,6 @@ input[value="SŪTĪT ZĪŃU"]:hover {
     margin: 0;
   }
 
- 
   
   /* накинуть .disable (display:none) */
   .fa-bars {
@@ -776,9 +774,7 @@ input[value="SŪTĪT ZĪŃU"]:hover {
     top: 0;
   }
 
-  /* active */
-
-    /* накинуть .active (display:block) */
+  /* накинуть .active (display:block) */
   .fa-times {
     display: none;
     position: absolute;
@@ -794,19 +790,25 @@ input[value="SŪTĪT ZĪŃU"]:hover {
     width: 100%;
     align-items: center;
   }
-  
 
   /* накинуть этот класс к .menu-left */
   .menu-left-active {
     position: absolute;
     z-index: 3;
   }
+
+  /* накинуть на body */
+  .scroll-disable {
+    overflow: hidden;
+  }
+
   .active {
     display: flex;
   }
   .disable {
     display: none;
   }
+
 
   /* Intro */
   .column-1 {
