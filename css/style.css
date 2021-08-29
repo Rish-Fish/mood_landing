@@ -69,7 +69,9 @@ input[type="radio"].visually-hidden {
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
-
+.mobile-menu-container {
+  display: none;
+}
 .base-desc {
   font-size: 17px;
   line-height: 150%;
@@ -581,7 +583,7 @@ textarea {
   align-items: center;
   /* flex-direction: column; */
 }
-.contacts-address span, a {
+.contacts-address-item {
   color: #ffffffa6;
 }
 
@@ -639,6 +641,7 @@ input[value="SŪTĪT ZĪŃU"]:hover {
 /* tablet */
 @media only screen and (max-width: 1025px) {
   /* MENU */
+  
   .menu-wrapper {
     display: flex;
     flex-direction: row;
@@ -737,6 +740,9 @@ input[value="SŪTĪT ZĪŃU"]:hover {
   .menu-right {
     display: none;
   }
+  .mobile-menu-container {
+    display: block;
+  }
   .fa-bars,
   .fa-times {
     margin-right: 15px;
@@ -760,36 +766,24 @@ input[value="SŪTĪT ZĪŃU"]:hover {
     margin: 0;
   }
 
+ 
   
-  /* .active {
+  /* накинуть .disable (display:none) */
+  .fa-bars {
     display: block;
-  } */
-  /* .not-active {
-    display: none;
-  } */
-  
-  /* накинуть .not-active (display:none) */
-  .js-mobile-toggle .fa-bars {
     position: absolute;
     right: 0;
     top: 0;
-    display: block;
   }
 
   /* active */
 
-  /* накинуть этот класс к .menu-left */
-  .menu-left-active {
-    position: absolute;
-    z-index: 3;
-  }
-
     /* накинуть .active (display:block) */
-  .js-mobile-toggle .fa-times {
+  .fa-times {
+    display: none;
     position: absolute;
     right: 0;
     top: 0;
-    display: none;
     z-index: 3;
   }
 
@@ -798,9 +792,21 @@ input[value="SŪTĪT ZĪŃU"]:hover {
     display: none;
     height: 100vh;
     width: 100%;
+    align-items: center;
   }
   
 
+  /* накинуть этот класс к .menu-left */
+  .menu-left-active {
+    position: absolute;
+    z-index: 3;
+  }
+  .active {
+    display: flex;
+  }
+  .disable {
+    display: none;
+  }
 
   /* Intro */
   .column-1 {

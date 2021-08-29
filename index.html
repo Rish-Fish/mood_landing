@@ -8,10 +8,10 @@
   <link rel="stylesheet" href="./css/slider.css">
   <!-- <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet" /> -->
   <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/font-awesome/css/fontawesome.min.css">
   <link rel="stylesheet" href="./css/font-awesome/css/solid.min.css">
   <link rel="stylesheet" href="./css/font-awesome/css/brands.min.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 
@@ -54,33 +54,35 @@
       </nav>
 
       <!-- Mobile menu -->
-      <div class="js-mobile-toggle">
-        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-        <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+      <div class="mobile-menu-container">
+        <div class="js-mobile-toggle">
+          <i class="fa fa-bars fa-2x " aria-hidden="true"></i>
+          <i class="fa fa-times fa-2x "></i>
+        </div>
+        <div class="mobile-menu-wrap ">
+          <ul class="mobile-menu ">
+            <li class="nav-item">
+              <a class="nav-element" href="#intro">Начало</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-element" href="#services">Услуги</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-element" href="#works">Работы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-element" href="#prices">Цены</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-element" href="#crew">Команда</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-element" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="mobile-menu-wrap ">
-        <ul class="mobile-menu active">
-          <li class="nav-item">
-            <a class="nav-element" href="#intro">Начало</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-element" href="#services">Услуги</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-element" href="#works">Работы</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-element" href="#prices">Цены</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-element" href="#crew">Команда</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-element" href="#contacts">Контакты</a>
-          </li>
-        </ul>
 
-      </div>
     </header>
   </div>
 
@@ -586,11 +588,11 @@
           <input class="form-field" type="submit" value="SŪTĪT ZĪŃU">
         </form>
         <div class="contacts-address">
-          <span>Rīga, Visskaistākā iela 1 | </span>
+          <span class="contacts-address-item">Rīga, Visskaistākā iela 1 | </span>
 
-          <a href="tel:+37122112221">mob:(+371) 22 112 221 | </a>
+          <a class="contacts-address-item" href="tel:+37122112221">mob:(+371) 22 112 221 | </a>
 
-          <a href="mailto:mail@mood.design">mail@mood.design</a>
+          <a class="contacts-address-item" href="mailto:mail@mood.design">mail@mood.design</a>
         </div>
       </section>
     </div>
