@@ -9,6 +9,9 @@ let faTimesToggle = document.querySelector('.fa-times'); //накинуть .act
 let scrollDisable = document.getElementsByTagName('body'); //накинуть сюда .scroll-disable
 let scrollDisableGoToTop = document.querySelector('.to_top_container'); //накинуть сюда .disable
 
+let navItemPush = document.querySelectorAll('.nav-item-push');
+
+
 faBarsToggle.addEventListener('click', function () {
   menuLeft.classList.toggle('menu-left-active');
   mobileMenuWrap.classList.toggle('active');
@@ -25,4 +28,15 @@ faTimesToggle.addEventListener('click', function () {
   faBarsToggle.classList.remove('disable');
   document.body.classList.remove('scroll-disable');
   scrollDisableGoToTop.classList.remove('disable');
+});
+
+navItemPush.forEach(function (navItemPush) {
+  navItemPush.addEventListener('click', function () {
+    menuLeft.classList.remove('menu-left-active');
+    mobileMenuWrap.classList.remove('active');
+    faTimesToggle.classList.remove('active');
+    faBarsToggle.classList.remove('disable');
+    document.body.classList.remove('scroll-disable');
+    scrollDisableGoToTop.classList.remove('disable');
+  })
 });
