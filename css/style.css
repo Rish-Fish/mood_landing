@@ -737,7 +737,7 @@ input[value="SŪTĪT ZĪŃU"]:hover {
     border-top: none;
     color: #ffffff;
     padding-top: 10px;
-    font-size: 22px;
+    font-size: 28px;
     transition: all .2s ease-in-out;
   }
   .nav-element:active {

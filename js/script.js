@@ -13,12 +13,12 @@ let navItemPush = document.querySelectorAll('.nav-item-push'); // накинут
 
 // появление меню по нажатию на бургер
 faBarsToggle.addEventListener('click', function () {
-  menuLeft.classList.toggle('menu-left-active');
-  mobileMenuWrap.classList.toggle('active');
-  faBarsToggle.classList.toggle('disable');
-  faTimesToggle.classList.toggle('active');
+  menuLeft.classList.add('menu-left-active');
+  mobileMenuWrap.classList.add('active');
+  faBarsToggle.classList.add('disable');
+  faTimesToggle.classList.add('active');
   document.body.classList.add('scroll-disable');
-  scrollDisableGoToTop.classList.toggle('disable');
+  scrollDisableGoToTop.classList.add('disable');
 });
 
 // скрытие меню по нажатию на крестик
