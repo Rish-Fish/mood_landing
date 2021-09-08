@@ -42,3 +42,15 @@ navItemPush.forEach(function (navItemPush) {
     scrollDisableGoToTop.classList.remove('disable');
   })
 });
+
+// cкрытие меню по клику на Esc
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+      menuLeft.classList.remove('menu-left-active');
+      mobileMenuWrap.classList.remove('active');
+      faTimesToggle.classList.remove('active');
+      faBarsToggle.classList.remove('disable');
+      document.body.classList.remove('scroll-disable');
+      scrollDisableGoToTop.classList.remove('disable');
+  }
+  });
