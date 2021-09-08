@@ -3,7 +3,6 @@
 *::after {
   box-sizing: border-box;
   scroll-behavior: smooth;
-
 }
 a:not([class]) {
   text-decoration-skip-ink: auto;
@@ -88,14 +87,13 @@ input[type="radio"].visually-hidden {
 .nav-item {
   line-height: 55px;
   font-size: 18px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .nav-element:hover {
   border-top: 3px solid white;
   padding-top: 10px;
 }
-
 
 .header-wrapper {
   background-color: #d5412e;
@@ -120,7 +118,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   width: 30%;
 }
- 
+
 .mask {
   width: 40px;
   height: 47px;
@@ -135,7 +133,6 @@ input[type="radio"].visually-hidden {
 .mask:hover {
   background-color: rgba(10, 10, 10, 0.726);
 }
-
 
 .logo-title {
   display: flex;
@@ -185,7 +182,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
   max-width: 890px;
   margin: 0 auto;
- }
+}
 .intro-mood {
   padding-top: 15%;
   padding-bottom: 10%;
@@ -204,25 +201,24 @@ input[type="radio"].visually-hidden {
 
 .fab {
   color: rgba(10, 10, 10, 0.726);
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   cursor: pointer;
 }
 .fab:hover {
   color: rgb(248, 217, 217);
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   transform: scale(1.2);
 }
 
 .fas {
   color: hsl(199, 77%, 66%);
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   cursor: pointer;
 }
 .fas:hover {
   color: hsl(184, 94%, 52%);
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
-
 
 /* SECTION SERVICES */
 
@@ -246,10 +242,10 @@ input[type="radio"].visually-hidden {
   padding: 0px;
 }
 
-
 /* SECTION WORKS */
 
 .works-wrapper {
+  background-color: rgb(116, 204, 153);
   background-image: url("../images/bg-green.png");
   background-size: cover;
   background-position: center;
@@ -276,7 +272,7 @@ input[type="radio"].visually-hidden {
   padding: 5px;
   line-height: 11px;
   text-transform: uppercase;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .button1:hover,
@@ -367,7 +363,6 @@ input[type="radio"].visually-hidden {
   background-position: center;
 }
 
-
 .price-column-wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -420,14 +415,13 @@ input[type="radio"].visually-hidden {
 }
 .button2:active,
 .button2:focus {
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   transform: scale(1.1);
 }
 
 .column:hover {
   background-color: rgba(78, 207, 216, 0.1);
-  transition: all .3s ease-in-out;
-
+  transition: all 0.3s ease-in-out;
 }
 
 .fat-font {
@@ -442,7 +436,7 @@ input[type="radio"].visually-hidden {
   border: rgb(255, 255, 255) solid 2px;
   border-radius: 5px;
   text-shadow: 1px 1px 3px #151b318f;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .photo-gallery {
@@ -505,7 +499,6 @@ input[type="radio"].visually-hidden {
   font-size: 18px;
 }
 
-
 .img_Juris {
   background-image: url("../images/komanda-pict/komanda-01.jpg");
 }
@@ -524,7 +517,7 @@ input[type="radio"].visually-hidden {
 /* SECTION CONTACTS */
 
 .contacts-wrapper {
-  background-color: navy;
+  background-color: rgb(34, 34, 66);
   background-image: url("../images/bg-blue.jpg");
   background-size: cover;
   background-position: center center;
@@ -565,7 +558,6 @@ textarea {
   font: 17px sans-serif;
 }
 
-
 .contacts-address {
   display: flex;
   flex-wrap: nowrap;
@@ -583,12 +575,13 @@ input[value="SŪTĪT ZĪŃU"]:hover {
 }
 .map {
   width: 100%;
+  background-color: rgb(53, 56, 94);
 }
 
 /* FOOTER */
 
 .footer-wrapper {
-  background-color: #152357;
+  background-color: #263158;
   height: 5%;
   padding-bottom: 5%;
   text-align: center;
@@ -630,7 +623,7 @@ input[value="SŪTĪT ZĪŃU"]:hover {
 /* tablet */
 @media only screen and (max-width: 1025px) {
   /* MENU */
-  
+
   .menu-wrapper {
     display: flex;
     flex-direction: row;
@@ -703,8 +696,8 @@ input[value="SŪTĪT ZĪŃU"]:hover {
 
   /* Scroll-container */
   .scroll-container-2 {
-      right: 1rem;
-    }
+    right: 1rem;
+  }
   .top_btn {
     border-radius: 10px 0 0 10px;
     padding: 8px 8px;
@@ -728,24 +721,24 @@ input[value="SŪTĪT ZĪŃU"]:hover {
   .nav-item {
     line-height: 55px;
     font-size: 18px;
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     font-size: 25px;
     margin-bottom: 10px;
   }
-  
+
   .nav-element:hover {
     border-top: none;
     color: #ffffff;
     padding-top: 10px;
     font-size: 28px;
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
   .nav-element:active {
-    color: #9deefc; 
+    color: #9deefc;
   }
 
   .mask {
-  margin-left: 0;
+    margin-left: 0;
   }
   .menu-right {
     display: none;
@@ -759,7 +752,7 @@ input[value="SŪTĪT ZĪŃU"]:hover {
     margin-top: 16px;
     cursor: pointer;
   }
-  
+
   .mobile-menu {
     display: flex;
     flex-direction: column;
@@ -768,7 +761,7 @@ input[value="SŪTĪT ZĪŃU"]:hover {
     background: rgb(194, 191, 191);
     height: 120vh;
     width: 100%;
-    right: 0;   
+    right: 0;
     top: 0;
     list-style-type: none;
     padding: 20% 0 0;
@@ -776,7 +769,6 @@ input[value="SŪTĪT ZĪŃU"]:hover {
     font-size: 25px;
   }
 
-  
   /* накинуть .disable (display:none) */
   .fa-bars {
     display: block;
@@ -820,7 +812,6 @@ input[value="SŪTĪT ZĪŃU"]:hover {
     display: none;
   }
 
-
   /* Intro */
   .column-1 {
     min-width: 200px;
@@ -838,7 +829,6 @@ input[value="SŪTĪT ZĪŃU"]:hover {
     padding-bottom: 35%;
   }
   /* Contacts */
-  
 }
 
 /* mini mobile */
@@ -850,7 +840,6 @@ input[value="SŪTĪT ZĪŃU"]:hover {
   /* Works gallery */
   .button1 {
     padding: 10px;
-    
   }
   .toggles {
     justify-content: center;
@@ -877,6 +866,4 @@ input[value="SŪTĪT ZĪŃU"]:hover {
   .contacts-address a {
     margin: 5px 0 0;
   }
- 
 }
- 
