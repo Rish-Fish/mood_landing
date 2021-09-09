@@ -767,6 +767,7 @@ input[value="SŪTĪT ZĪŃU"]:hover {
     padding: 20% 0 0;
     margin: 0;
     font-size: 25px;
+    overflow: auto;
   }
 
   /* накинуть .disable (display:none) */
